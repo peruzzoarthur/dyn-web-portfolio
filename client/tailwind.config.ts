@@ -16,7 +16,6 @@ const config = {
         './src/**/*.{ts,tsx}',
         './data/**/*.{ts,tsx}',
     ],
-    prefix: '',
     theme: {
         container: {
             center: true,
@@ -29,7 +28,7 @@ const config = {
             colors: {
                 black: {
                     DEFAULT: '#000',
-                    100: '#003C43',
+                    100: '#17153B',
                     200: 'rgba(17, 25, 40, 0.75)',
                     300: 'rgba(255, 255, 255, 0.125)',
                 },
@@ -37,12 +36,12 @@ const config = {
                     DEFAULT: '#FFF',
                     100: '#BEC1DD',
                 },
-                green: {
-                    100: '#E3FEF7',
-                    400: '#77B0AA',
-                    600: '#135D66',
+                purple: {
+                    100: '#C8ACD6',
+                    300: '#433D8B',
+                    600: '#2E236C',
+                    800: '#171523',
                 },
-                purple: '#CBACF9',
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
                 ring: 'hsl(var(--ring))',

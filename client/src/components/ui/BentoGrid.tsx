@@ -74,9 +74,9 @@ export const BentoGridItem = ({
             style={{
                 //   add these two
                 //   you can generate the color from here https://cssgradient.io/
-                background: 'rgb(22,22,22)',
+                background: 'rgb(23,21,35)',
                 backgroundColor:
-                    'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,121,9,1) 86%, rgba(112,161,94,1) 100%);',
+                    'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(83,9,121,1) 45%, rgba(132,94,161,1) 100%);',
             }}
         >
             {/* add img divs */}
@@ -144,20 +144,20 @@ export const BentoGridItem = ({
                                     <span
                                         key={i}
                                         className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#003C43]"
+                    lg:opacity-100 rounded-lg text-center bg-[#433D8B]"
                                     >
                                         {item}
                                     </span>
                                 ))}
-                                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#003C43]"></span>
+                                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#433D8B]"></span>
                             </div>
                             <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#003C43]"></span>
+                                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#433D8B]"></span>
                                 {rightLists.map((item, i) => (
                                     <span
                                         key={i}
                                         className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#003C43]"
+                    lg:opacity-100 rounded-lg text-center bg-[#433D8B]"
                                     >
                                         {item}
                                     </span>
