@@ -5,7 +5,6 @@ import {
 import React, { Suspense } from 'react'
 import { QueryClient } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { AuthContext } from '@/hooks/useAuth'
 import { Outlet } from '@tanstack/react-router'
 
 const TanStackRouterDevtools =
@@ -21,7 +20,6 @@ const TanStackRouterDevtools =
           )
 
 export type RouterContext = {
-    authentication: AuthContext
     queryClient: QueryClient
 }
 export const Route = createRootRouteWithContext<RouterContext>()({
