@@ -1,8 +1,9 @@
-import { Link } from '@tanstack/react-router'
 import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import { Workflow } from 'lucide-react'
+import { Github, Workflow, Linkedin } from 'lucide-react'
+import { Button } from './ui/button'
+import { Link } from '@tanstack/react-router'
 const Hero = () => {
     return (
         <div className="h-screen">
@@ -57,6 +58,32 @@ const Hero = () => {
                                 position="right"
                             />
                         </Link>
+                        <div className="flex mt-4">
+                            <Button
+                                variant="ghost"
+                                className="hover:bg-opacity-0 hover:bg-white"
+                            >
+                                <a
+                                    href="https://github.com/peruzzoarthur/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Github />
+                                </a>
+                            </Button>
+                            <a
+                                href="https://www.linkedin.com/in/arthur-peruzzo"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button
+                                    variant="ghost"
+                                    className="hover:bg-opacity-0 hover:bg-white"
+                                >
+                                    <Linkedin />
+                                </Button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

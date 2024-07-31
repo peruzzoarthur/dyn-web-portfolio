@@ -42,6 +42,7 @@ const config = {
                     600: '#2E236C',
                     800: '#171523',
                 },
+                // https://colorhunt.co/palette/17153b2e236c433d8bc8acd6
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
                 ring: 'hsl(var(--ring))',

@@ -1,8 +1,11 @@
 import { cn } from '@/lib/utils'
 import { BackgroundGradientAnimation } from './GradientBg'
 import { GridGlobe } from './GridGlobe'
-// import animationData from "@/data/confetti.json";
-// import MagicButton from "../MagicButton";
+import Lottie from 'react-lottie'
+import { useState } from 'react'
+import animationData from '@/data/confetti.json'
+import MagicButton from '../ui/MagicButton'
+import { Copy } from 'lucide-react'
 
 export const BentoGrid = ({
     className,
@@ -47,22 +50,22 @@ export const BentoGridItem = ({
     const leftLists = ['ReactJS', 'NestJS', 'Typescript']
     const rightLists = ['PostgreSQL', 'Python', 'QGIS']
 
-    // const [copied, setCopied] = useState(false)
+    const [copied, setCopied] = useState(false)
 
-    // const defaultOptions = {
-    //     loop: copied,
-    //     autoplay: copied,
-    //     animationData: animationData,
-    //     rendererSettings: {
-    //         preserveAspectRatio: 'xMidYMid slice',
-    //     },
-    // }
+    const defaultOptions = {
+        loop: copied,
+        autoplay: copied,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice',
+        },
+    }
 
-    // const handleCopy = () => {
-    //     const text = 'peruzzoarthur@gmail.com'
-    //     navigator.clipboard.writeText(text)
-    //     setCopied(true)
-    // }
+    const handleCopy = () => {
+        const text = 'peruzzoarthur@gmail.com'
+        navigator.clipboard.writeText(text)
+        setCopied(true)
+    }
 
     return (
         <div
@@ -163,6 +166,20 @@ export const BentoGridItem = ({
                                     </span>
                                 ))}
                             </div>
+                        </div>
+                    )}
+                    {id === 6 && (
+                        <div className="mt-5 relative">
+                            <div className={`absolute -bottom-5 right-0 `}>
+                                <Lottie options={defaultOptions} />
+                            </div>
+                            <MagicButton
+                                title={copied ? 'Email copied' : 'Copy email'}
+                                icon={<Copy />}
+                                position="left"
+                                otherClasses="!bg-[#171523]"
+                                handleClick={handleCopy}
+                            />
                         </div>
                     )}
                 </div>
