@@ -92,8 +92,8 @@ export const RESUME_DATA = {
             description:
                 "A simple full stack gym manager I'm building for personal usage and possible future product",
             link: {
-                label: 'github.com',
-                href: 'https://parabol.co/',
+                label: 'gym-manager',
+                href: 'https://coldgym.up.railway.app/',
             },
         },
         {
@@ -108,8 +108,8 @@ export const RESUME_DATA = {
             description:
                 'A full stack application to manage and create tennis and padel tournaments',
             link: {
-                label: 'evercast.us',
-                href: 'https://www.evercast.us/',
+                label: 'cold-cup-generator',
+                href: 'https://coldcupgenerator.up.railway.app/',
             },
         },
         {
@@ -121,6 +121,25 @@ export const RESUME_DATA = {
             link: {
                 label: 'ozzurep',
                 href: 'https://ozzurep.up.railway.app/',
+            },
+        },
+        {
+            title: 'GIS Web Software',
+            techStack: [
+                'Side Project',
+                'React.js',
+                'Nest.js',
+                'PostgreSQL',
+                'PostGIS',
+                'GIS',
+                'Leaflet',
+            ],
+            description:
+                'Recently I started working with Leaflet for building geodata web platform. The ideia is to build a software that uses in the first moment PostGIS extension for working with this data, showing and also manipulating the data.',
+            // logo: JarockiMeLogo,
+            link: {
+                label: 'MyGISApp',
+                href: 'https://gis.up.railway.app/gis',
             },
         },
     ],
