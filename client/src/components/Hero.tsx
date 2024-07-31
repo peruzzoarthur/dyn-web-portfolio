@@ -51,7 +51,7 @@ const Hero = () => {
                             Hello, I&apos;m Arthur, a fullstack web dev and GIS
                             analyst based in Brazil.
                         </p>
-                        <Link to="/about">
+                        <Link to="/cv">
                             <MagicButton
                                 title="Show my work"
                                 icon={<Workflow />}
