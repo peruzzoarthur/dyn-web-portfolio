@@ -7,7 +7,7 @@ export const RESUME_DATA = {
     locationLink: 'https://www.google.com/maps/place/Pelotas',
     about: 'Detail-oriented Full Stack Engineer and GIS Analyst dedicated to building high-quality products.',
     summary:
-        "As a Full Stack Engineer and GIS Analyst, I'm specializing in taking products from concept to launch, and applying my engineering skills seeking best practices and quality. I'm a  learner and hard worker, dedicated to improve my habilities and looking forward to collaborate with projects. Currently, I work mostly with TypeScript, React, Nest.js, and PostgreSQL. I have over 6 years of experience working with GIS projects, collecting, processing and analysing data for mapping and environmental modelling processes.",
+        "As a Full Stack Engineer and GIS Analyst, I'm specializing in taking products from concept to launch, and applying my engineering skills seeking best practices and quality. I'm a fast learner and hard worker, dedicated to improve my habilities and looking forward to collaborate with projects. Currently, I work mostly with TypeScript, React, Nest.js, and PostgreSQL. I have over 6 years of experience working with GIS projects, collecting, processing and analysing data for mapping and environmental modelling processes.",
     avatarUrl: 'https://avatars.githubusercontent.com/u/73316481?v=4',
     personalWebsiteUrl: 'https://ozzurep.up.railway.app/',
     contact: {
