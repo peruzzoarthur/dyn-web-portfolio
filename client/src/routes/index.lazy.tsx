@@ -1,5 +1,6 @@
 import Grid from '@/components/Grid'
 import Hero from '@/components/Hero'
+import RecentProjects from '@/components/RecentProjects'
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import { createLazyFileRoute } from '@tanstack/react-router'
 import { Home, PersonStanding } from 'lucide-react'
@@ -24,6 +25,7 @@ function Index() {
                 />
                 <Hero />
                 <Grid />
+                <RecentProjects />
             </div>
         </main>
     )
