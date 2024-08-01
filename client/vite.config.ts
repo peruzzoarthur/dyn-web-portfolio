@@ -9,6 +9,9 @@ export default defineConfig({
     plugins: [react(), TanStackRouterVite(), sentryVitePlugin({
         org: "sp3rzo",
         project: "javascript-react"
+    }), sentryVitePlugin({
+        org: "sp3rzo",
+        project: "arthur-portfolio"
     })],
 
     resolve: {
