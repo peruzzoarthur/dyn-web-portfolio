@@ -103,7 +103,7 @@ export const projects = [
     {
         id: 3,
         title: 'MyGym App',
-        des: "A simple full stack gym manager I'm building for personal usage and possible future product",
+        des: "A simple full stack gym manager I'm building for personal usage and possible future product.",
         img: '/gym.png',
         iconLists: [
             '/re.svg',

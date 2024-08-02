@@ -18,7 +18,7 @@ function Index() {
                         { name: 'Home', link: '/', icon: <Home /> },
                         {
                             name: 'About',
-                            link: '/about',
+                            link: '/cv',
                             icon: <PersonStanding />,
                         },
                     ]}
