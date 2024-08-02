@@ -71,18 +71,18 @@ const Hero = () => {
                                     <Github />
                                 </a>
                             </Button>
-                            <a
-                                href="https://www.linkedin.com/in/arthur-peruzzo"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                            <Button
+                                variant="ghost"
+                                className="hover:bg-opacity-0 hover:bg-white"
                             >
-                                <Button
-                                    variant="ghost"
-                                    className="hover:bg-opacity-0 hover:bg-white"
+                                <a
+                                    href="https://www.linkedin.com/in/arthur-peruzzo"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <Linkedin />
-                                </Button>
-                            </a>
+                                </a>
+                            </Button>
                         </div>
                     </div>
                 </div>

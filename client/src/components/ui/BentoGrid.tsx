@@ -79,7 +79,7 @@ export const BentoGridItem = ({
                 //   you can generate the color from here https://cssgradient.io/
                 background: 'rgb(23,21,35)',
                 backgroundColor:
-                    'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(83,9,121,1) 45%, rgba(132,94,161,1) 100%);',
+                    'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(83,9,121,1) 45%, rgba(132,94,161,1) 100%)',
             }}
         >
             {/* add img divs */}
